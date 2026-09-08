@@ -2,7 +2,7 @@
   "Restoration-fidelity tests — one per original kami-cam Rust test
   (kami-engine/kami-cam/src/tests.rs, deleted PR #82)."
   (:require [clojure.test :refer [deftest is testing]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [cnc-toolpath]
             [cnc-toolpath.tool :as tool]
             [cnc-toolpath.stock :as stock]
