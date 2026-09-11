@@ -33,5 +33,5 @@ all 5 original Rust unit tests mirrored 1:1 in
 ## Develop
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
