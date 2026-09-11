@@ -27,7 +27,7 @@ of correction as `kami-si` -> `signal-integrity`.
 Restored — all 4 modules ported from the original 973-line Rust source
 (`lib.rs` + `tool.rs` + `stock.rs` + `toolpath.rs` + `gcode.rs`), with
 all 5 original Rust unit tests mirrored 1:1 in
-`test/cnc_toolpath_test.cljc` (+1 smoke test) — 6 tests / 56 assertions,
+`test/cnc_toolpath_test.cljk` (+1 smoke test) — 6 tests / 56 assertions,
 0 failures. Pure data + pure functions throughout; no IO/GPU.
 
 ## Develop
